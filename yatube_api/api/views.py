@@ -6,7 +6,6 @@ from .serializers import (PostSerializer, FollowSerializer, CommentSerializer,
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.pagination import LimitOffsetPagination
 from .permissions import IsAuthorOrReadOnly
-from django.core.exceptions import ValidationError
 
 
 class PostViewSet(viewsets.ModelViewSet):
