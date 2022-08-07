@@ -2,26 +2,28 @@
 ##### _Made by the one and only [Sasha Smirnov][github_link]_
 # 
 
-## Использование
+## Что такое API Yatube
 
-API Yatube позволяет:
+### API Yatube - это интерфейс взаимодействия с базой данных соцсети Yatube
 
-- Написать собственный frontend на основе реальной востребованной соцсети
-- Козырнуть перед девушкой или потенциальным работодателем
-- ???
-- Profit!!
+API Yatube позволяет Вам:
+
+- Взаимодействовать с объектами базы данных Yatube: пользователямми, подписками, постами, комментариями к ним, сообществами
+- Писать посты, оставлять комментарии, регистрировать новых пользователей, подписываться на других пользователей
+- Получать информацию о вышеперечисленных объектах ресурса
+- Изменять и удалять объекты ресурса при наличии соответствующих прав доступа
 
 ## Stack
 
-- Python 3.7
-- Django 2.2.16
-- Django REST framework
+- Python 3.7[python3.7]
+- Django 2.2.16[django]
+- Django REST framework[drf]
 
 ## Запуск проекта
 - Установите и запустите виртуальное окружение:
 ```
 python3 -m venv venv
-source env/bin/activate
+source venv/bin/activate
 ``` 
 
 - Установите зависимости:
@@ -60,3 +62,6 @@ POST .../api/v1/jwt/create
 ```
 
 [github_link]: <http://github.com/crush-on-anechka>
+[python3.7]: <https://docs.python.org/3.7/whatsnew/3.7.html>
+[django]: <https://docs.djangoproject.com/en/4.0/releases/2.2.16/>
+[drf]: <https://www.django-rest-framework.org>
