@@ -15,9 +15,9 @@ API Yatube позволяет Вам:
 
 ## Stack
 
-- Python 3.7[python3.7]
-- Django 2.2.16[django]
-- Django REST framework[drf]
+- [Python3.7]
+- [Django 2.2.16]
+- [Django REST framework][drf]
 
 ## Запуск проекта
 - Установите и запустите виртуальное окружение:
@@ -63,5 +63,5 @@ POST .../api/v1/jwt/create
 
 [github_link]: <http://github.com/crush-on-anechka>
 [python3.7]: <https://docs.python.org/3.7/whatsnew/3.7.html>
-[django]: <https://docs.djangoproject.com/en/4.0/releases/2.2.16/>
+[Django 2.2.16]: <https://docs.djangoproject.com/en/4.0/releases/2.2.16/>
 [drf]: <https://www.django-rest-framework.org>
