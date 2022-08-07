@@ -27,7 +27,7 @@ class CommentSerializer(serializers.ModelSerializer):
     class Meta:
         fields = ('id', 'text', 'post', 'author', 'created')
         model = Comment
-        read_only_fields = ('author', 'post')
+        read_only_fields = ('post',)
 
 
 class FollowSerializer(serializers.ModelSerializer):
@@ -44,7 +44,6 @@ class FollowSerializer(serializers.ModelSerializer):
     class Meta:
         fields = ('id', 'user', 'following')
         model = Follow
-        read_only_fields = ('user',)
 
         validators = [
             UniqueTogetherValidator(
