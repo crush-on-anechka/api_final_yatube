@@ -43,9 +43,12 @@ python3 manage.py runserver
 ## Запросы к API
 
 Некоторые примеры запросов к API:
+- Запрос на получение поста с идентификатором "1":
 ```
 GET 127.0.0.1:8000/api/v1/posts/1/
-Ответ:
+```
+- Ответ:
+```
 HTTP/1.1 200 OK
 Allow: GET, PUT, PATCH, DELETE, HEAD, OPTIONS
 Content-Length: 108
@@ -64,7 +67,6 @@ X-Frame-Options: SAMEORIGIN
     "text": "sdfdsf"
 }
 ```
-.
 - Базовые эндпоинты:
 ```
 /api/v1/users
