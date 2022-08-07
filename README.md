@@ -1,5 +1,5 @@
 # Yatube API project
-##### _Made by the one and only Sasha Smirnov_
+##### _Made by the one and only [Sasha Smirnov][github_link]_
 # 
 
 ## Использование
@@ -58,3 +58,5 @@ API дает доступ к постам, сообществам, коммен�
 ```
 POST .../api/v1/jwt/create
 ```
+
+[github_link]: <http://github.com/crush-on-anechka>
