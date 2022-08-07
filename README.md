@@ -49,15 +49,6 @@ GET 127.0.0.1:8000/api/v1/posts/1/
 ```
 - Ответ:
 ```
-HTTP/1.1 200 OK
-Allow: GET, PUT, PATCH, DELETE, HEAD, OPTIONS
-Content-Length: 108
-Content-Type: application/json
-Date: Sun, 07 Aug 2022 18:29:50 GMT
-Server: WSGIServer/0.2 CPython/3.7.13
-Vary: Accept
-X-Frame-Options: SAMEORIGIN
-
 {
     "author": "admin",
     "group": null,
@@ -67,6 +58,20 @@ X-Frame-Options: SAMEORIGIN
     "text": "sdfdsf"
 }
 ```
+- Получение JWT токена для зарегистрированного пользователя:
+```
+POST 127.0.0.1:8000/api/v1/jwt/create/ username="user01" password="qwerty123"
+```
+- Ответ:
+```
+{
+    "access": <your_access_token>,
+    "refresh": <your_refresh_token>
+}
+```
+
+## Эндпоинты и фичи
+
 - Базовые эндпоинты:
 ```
 /api/v1/users
@@ -82,11 +87,11 @@ X-Frame-Options: SAMEORIGIN
 ```
 - Пагинация при запросе постов:
 ```
-/api/v1/posts?limit=5&offset=10
+GET /api/v1/posts?limit=5&offset=10
 ```
-- Получение JWT токена для пользователя:
+- Поиск подписчиков текущего пользователя:
 ```
-POST .../api/v1/jwt/create
+GET /api/v1/follow/?search=aleks
 ```
 
 [github_link]: <http://github.com/crush-on-anechka>
