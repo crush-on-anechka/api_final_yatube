@@ -4,7 +4,7 @@
 
 ## Что такое API Yatube
 
-### API Yatube - это интерфейс взаимодействия с базой данных соцсети Yatube
+### API Yatube - это интерфейс взаимодействия с данными социальной сети Yatube
 
 API Yatube позволяет Вам:
 
@@ -93,6 +93,8 @@ GET /api/v1/posts?limit=5&offset=10
 ```
 GET /api/v1/follow/?search=aleks
 ```
+
+Замечания и пожелания направляйте напрямую [Владимиру Путину]: <http://www.kremlin.ru>
 
 [github_link]: <http://github.com/crush-on-anechka>
 [python3.7]: <https://docs.python.org/3.7/whatsnew/3.7.html>
