@@ -94,9 +94,10 @@ GET /api/v1/posts?limit=5&offset=10
 GET /api/v1/follow/?search=aleks
 ```
 
-Замечания и пожелания направляйте напрямую [Владимиру Путину]: <http://www.kremlin.ru>
+Замечания и пожелания направляйте напрямую [Владимиру Путину][vp]
 
 [github_link]: <http://github.com/crush-on-anechka>
 [python3.7]: <https://docs.python.org/3.7/whatsnew/3.7.html>
 [Django 2.2.16]: <https://docs.djangoproject.com/en/4.0/releases/2.2.16/>
 [drf]: <https://www.django-rest-framework.org>
+[vp]: <http://www.kremlin.ru>
